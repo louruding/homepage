@@ -1,8 +1,0 @@
-AuthUserFile /home/lour/public_html/admin/.itii.htpasswd
-AuthGroupFile /dev/null
-AuthName "Veuillez vous identifier"
-AuthType Basic
-
-<Limit GET POST>
-require valid-user
-</Limit>
