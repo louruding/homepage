@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | 2021.01.create.shape.for.Simtra</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
+    <title>Unity WebGL Player | Virtual sputtering 2020</title>
+    <link rel="shortcut icon" href="https://louruding.github.io/WebGL/PVD_virtual_sputtering/TemplateData/favicon.ico">
+    <link rel="stylesheet" href="https://louruding.github.io/WebGL/PVD_virtual_sputtering/TemplateData/style.css">
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -22,20 +22,20 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">2021.01.create.shape.for.Simtra</div>
+        <div id="unity-build-title">Virtual sputtering 2020</div>
       </div>
     </div>
     <script>
-      var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/SOC.loader.js";
+      var buildUrl = "https://louruding.github.io/WebGL/PVD_virtual_sputtering/Build";
+      var loaderUrl = buildUrl + "/PVD_virtual_sputtering.loader.js";
       var config = {
-        dataUrl: buildUrl + "/SOC.data",
-        frameworkUrl: buildUrl + "/SOC.framework.js",
-        codeUrl: buildUrl + "/SOC.wasm",
+        dataUrl: buildUrl + "/PVD_virtual_sputtering.data",
+        frameworkUrl: buildUrl + "/PVD_virtual_sputtering.framework.js",
+        codeUrl: buildUrl + "/PVD_virtual_sputtering.wasm",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "2021.01.create.shape.for.Simtra",
-        productVersion: "0.1",
+        companyName: "Arts et Metiers - Campus Cluny",
+        productName: "Virtual sputtering 2020",
+        productVersion: "1.0",
       };
 
       var container = document.querySelector("#unity-container");
@@ -53,7 +53,7 @@
           mobileWarning.style.display = "none";
         }, 5000);
       } else {
-        canvas.style.width = "800px";
+        canvas.style.width = "1280px";
         canvas.style.height = "720px";
       }
       loadingBar.style.display = "block";
