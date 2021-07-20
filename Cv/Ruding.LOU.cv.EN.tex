@@ -1,0 +1,180 @@
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+
+\documentclass{res} 
+
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\newsectionwidth{0pt}  % So the text is not indented under section headings
+\usepackage{fancyhdr}  % use this package to get a 2 line header
+%\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc} 
+\usepackage[dvips]{graphicx}
+\usepackage{color}
+\usepackage{hyperref}
+
+
+
+\renewcommand{\headrulewidth}{0pt} % suppress line drawn by default by fancyhdr
+\setlength{\headheight}{24pt} % allow room for 2-line header
+\setlength{\headsep}{24pt}  % space between header and text
+\setlength{\headheight}{24pt} % allow room for 2-line header
+\pagestyle{fancy}     % set pagestyle for document
+\rhead{ {\it Ruding. Lou}\\{\it p. \thepage} } % put text in header (right side)
+\cfoot{}                                     % the foot is empty
+\topmargin=-0.5in % start text higher on the page
+
+\begin{document}
+\thispagestyle{empty} % this page has no header
+\name{Ruding Lou\\[18pt]}% the \\[12pt] adds a blank line after name
+
+\address{
+	\begin{tabular}{ll} % two columns with left and left alignment, {|c|c|c|} allows three columns center alignment
+		{\bf Position:} & Assistant Professor\\
+		{\bf E-mail : } & ruding.lou@ensam.eu\\
+		{\bf Homepage:} & \href{https://louruding.github.io/homepage/}{\textcolor[rgb]{0,0,1}{https://louruding.github.io/homepage/}}\\
+		{\bf Phone :  } & (+33) 3 85 90 98 64\\
+		{\bf Address: }	& Arts et Metiers - LiSPEN \\
+										& 2 rue Thomas Dumorey \\
+										& 71100 Chalon-sur-Saone (France) \\
+	\end{tabular}
+}
+
+
+                                    
+%\address{\\
+% \includegraphics[width=2cm]{louPhoto.jpg}\\
+%}
+
+\begin{resume}
+ 
+ 
+%\vspace{0.2in}
+\section{\centerline{EDUCATION}} 
+\vspace{12pt} 
+
+{\sl PhD}, Computer-Aided Design, \hfill 2011\\
+co-tutelle: Arts et Meiers ParisTech, Aix en Provence, France, \\ 
+\textcolor[rgb]{1,1,1}{co-tutelle:} Universita degli studi di Genova, Genoa, Italy.
+
+{\sl Master}, Science of Information and System (Product design and production system), \hfill 2007\\
+Arts et Meiers ParisTech, Aix en Provence, France.
+
+{\sl Master}, Computer Science (Distributed systems, networks and parallelism),  \hfill 2006\\
+University of Bordeaux, France.
+ 
+{\sl Bachelor}, Computer Science, \hfill 2003\\
+Southwest Science and Technology University, China.
+
+%\vspace{0.1in}
+\section{\centerline{TEACHING EXPERIENCE}} 
+\vspace{12pt}
+Assistant professor at Arts et Meiers ParisTech (Campus Cluny)    \hfill   Since Sept.2012\\
+Teaching assistant at Arts et Meiers ParisTech (Campus Aix-en-Provence)     \hfill   Oct.2010 - Aug.2012\\
+Teaching fellow at Arts et Meiers ParisTech (Campus Aix-en-Provence)    \hfill   Oct.2007 - Sept.2010
+  
+%\vspace{0.2in} 
+\section{\centerline{RESEARCH INTERESTS}} 
+\vspace{12pt}
+Geometry and Semantics information processing
+\begin{itemize} \itemsep -4pt
+	\item application for numerical engineering: CAD-less shape modelling, FE mesh processing
+	\item application for virtual reality: reducing cybersickness (motion sickness) and intuitive interaction
+ \end{itemize}
+
+Multi-User visualization and interaction with multi-representation of Digital Mock-Up in virtual reality
+\begin{itemize} \itemsep -4pt
+	\item domain specific experts collaboration in product engineering
+	\item user participation in ergonomical design of automobiles
+\end{itemize}
+
+Virtual reality (VR) application
+\begin{itemize} \itemsep -4pt
+	\item Physical vapor deposition PVD
+	\item Urban design : foster citizen participation and creativity in urban design project
+	\item AEC : task-centered methodology for guiding VR application design
+	\item VR aided building facility management and maintenance
+	\item Building design clash resolution in VR
+	\item Reverse engineering : virtual scanning
+\end{itemize}
+
+%\vspace{0.2in}
+\section{\centerline{LANGUAGES}} 
+\vspace{-5pt}
+
+\begin{center}
+	\begin{tabular}{ r l }
+		 Chinese: & mother language \\
+		 French: & very fluently \\
+		 English: & professional \\
+	 \end{tabular}
+\end{center}
+
+
+\newpage
+
+\vspace{0.2in} 
+\section{\centerline{PUBLICATIONS}} 
+\vspace{15pt}
+{\sl International Journals}  
+\begin{itemize}
+		\item {\bf R. Lou}, A. Mikchevitch, J-P. Pernot, P. Veon, Merging enriched Finite Element triangle meshes for fast prototyping of alternate solutions in the context of industrial maintenance, {\it Computer-Aided Design} 42 - 8 (2010) 670--681
+		\item {\bf R. Lou}, F. Giannini, J-P. Pernot, A. Mikchevitch, B. Falcidieno, P. Veon, R. Marc, Direct modification of semantically-enriched Finite Element Meshes, {\it Shape Modeling}  16 - 1 (2010) 81--108
+		\item {\bf R. Lou}, J-P. Pernot, F. Giannini, P. Veon, B. Falcidieno, Filleting sharp edges of multi-partitioned volume finite element meshes, {\it Engineering Computations} 32 - 1 (2015) 129--154
+		\item B. Li, {\bf R. Lou}, F. Segonds, F. Merienne, Multi-user interface for co-located real-time work with digital mock-up: a way to foster collaboration, {\it Interactive Design and Manufacturing}, {\bf 11} - 3 (2016) 609--621
+		\item B. Li, H. Zhang, {\bf R. Lou}, Study of Efficiency of Multi View System in Multi-Disciplinary Collaboration Task, {\it Research and Science Today}, 2 - 1 (2017) 92--100
+		\item B. Li, F. Segonds, C. Mateev, {\bf R. Lou}, F. Merienne, Design in context of use: An experiment with a multi-view and multi-representation system for collaborative design, {\it Computers in Industry}, 103 - 1 (2018) 28--37
+		\item B. Faliu, A. Siarheyeva, {\bf R. Lou} and F. Merienne, Design and Prototyping of an Interactive Virtual Environment to Foster Citizen Participation and Creativity in Urban Design, Lecture Notes in Information Systems and Organisation, {\it  Springer, Cham}, 34 (2019) 55--78
+		\item P. Raimbaud, {\bf R. Lou}, F. Danglade, P. Figueroa, and T. Hernandez, F. Merienne,  A Task-Centred Methodology to Evaluate the Design of Virtual Reality User Interactions: A Case Study on Hazard Identification, {\it  Buildings },  11 - 7 (2011)
+\end{itemize}
+
+{\sl International Conferences}  
+\begin{itemize}
+		\item {\bf R. Lou}, A. Mikchevitch, J-P. Pernot, P. Veon, Direct merging of triangle meshes preserving simulation semantics for fast modification of numerical models, {\it  Tools and Methods of Competitive Engineering} (TMCE), vol.1, pp.119-131, Turkey, 2008
+		\item {\bf R. Lou}, F. Giannini, J-P. Pernot, A. Mikchevitch, P. Veon, B. Falcidieno, R. Marc, Towards CAD-less Finite Element analysis using group boundaries for enriched meshes manipulation, {\it  ASME Int. Design Eng. Tech. Conf. $\&$ Computers and Information in Eng. Conf.} San Diego, USA, 2009
+		\item {\bf R. Lou}, F. Giannini, J-P. Pernot, A. Mikchevitch, P. Veon, B. Falcidieno, R. Marc, Towards semantic-based 3D mesh modeling, {\it  FOCUS-K3D Conference on Semantic 3D Media and Content}, Sophia Antipolis, France, 2010
+		\item {\bf R. Lou}, F. Giannini, J-P. Pernot, A. Mikchevitch, P. Veon, B. Falcidieno, R. Marc, Direct modification of FE meshes preserving group information, {\it  Tools and Methods of Competitive Engineering} (TMCE), vol.1, pp.303-315, Ancona, Italy, April 2010
+		\item {\bf R. Lou}, F. Giannini, J-P. Pernot, A. Mikchevitch, P. Veon, B. Falcidieno, R. Marc, Semantic-preserving mesh direct drilling, {\it  Shape Modeling International} (SMI) pp.68-77, Aix-en-Provence, France, 2010
+		\item {\bf R. Lou}, J-P. Pernot, F. Giannini, A. Mikchevitch, P. Veon, B. Falcidieno, R. Marc, Sharp edge filleting of enriched finite element meshes, {\it  Tools and Methods of Competitive Engineering} (TMCE), vol.1, pp.650-659, Karlsruhe, Germany, 2012
+		\item Z. Li, {\bf R. Lou}, Subdivision surface generation from network of curves, {\it  Tools and Methods of Competitive Engineering} (TMCE),  vol.1, pp.673-684, Budapest, Hungary, May 2014
+		\item B. Li, {\bf R. Lou}, F. Segonds, F. Merienne, A Multi-view and Multi-interaction System for Digital Mock-up's  collaborative environment, {\it  European Association for Virtual Reality and Augmented Reality} (EuroVR), Lecco, Italy, 2015
+		\item B. Li, {\bf R. Lou}, F. Segonds, F. Merienne, Multi-user Interface for Co-located Real-time Collaborative Work with Digital Mock-up, {\it  Virtual Concept Workshop -- Major Trends in Product Design}, Bordeaux, France, 2016
+		\item B. Li, {\bf R. Lou}, J. Posselt, F. Segonds, F. Merienne, A. Kemeny, Multi-view VR system for co-located multidisciplinary collaboration and its application in ergonomic design, {\it  23rd ACM Symposium on Virtual Reality Software and Technology } (VRST),  ACM, New York, NY, USA, 2017
+		\item P. Raimbaud, F. Merienne, F. Danglade, {\bf R. Lou}, T. Hernandez, and P. Figueroa, Smart adaptation of BIM for virtual reality, depending on building project actors’ needs: the nursery case, {\it  IEEE Conference on Virtual Reality and 3D User Interfaces} (IEEE VR), pp. 667–668, Reutlingen, Germany, March 2018
+		\item B. Faliu, A. Siarheyeva, {\bf R. Lou} and F. Merienne, Design and prototyping of an interactive virtual environment to foster citizen participation and creativity in urban design, {\it  27th International Conference on Information Systems Development } (ISD),  Lund, Sweden, August 2018
+		\item {\bf R. Lou} and J-R. Chardonnet, Reducing Cybersickness by Geometry Deformation, {\it  IEEE Conference on Virtual Reality and 3D User Interfaces} (IEEE VR), pp. 1058-1059, Osaka, Japan, 2019
+		\item P. Raimbaud, {\bf R. Lou}, F. Merienne, F. Danglade, P. Figueroa, and T. Hernandez, BIM-based mixed reality application for supervision of construction, {\it  IEEE Conference on Virtual Reality and 3D User Interfaces} (IEEE VR) Workshop on Smart Work Technologies, Osaka, Japan, 2019
+		\item P. Raimbaud, M. B. Palacios, J. P. R. Cortes, P. Figueroa, {\bf R. Lou}, F. Danglade, F. Merienne, and J.-T. Hernandez, A Virtual Reality and BIM Approach for Clash Resolution, {\it  European Association for Virtual Reality and Augmented Reality} (EuroVR), TALLINN, ESTONIA, 2019
+		\item A. Scalas, Y. Zhu, F Giannini, {\bf R. Lou}, K. Lupinetti, M. Monti, M. Mortara, M. Spagnuolo, A first step towards cage-based deformation in Virtual Reality, {\it  Smart Tools and Applications in Graphics} (STAG), pp. 119-130, 2020
+		
+\end{itemize}
+
+{\sl National Conferences}  
+\begin{itemize}
+		\item {\bf R. Lou}, F. Giannini, J-P. Pernot, A. Mikchevitch, P. Veon, B. Falcidieno, R. Marc, Perçge de maillage préservant la sémantique, {\it  Journées du Groupe de Travail en Modélisation Géométrique}, Dijon, France 2010
+		\item P. RAIMBAUD, F. MERIENNE, P. FIGUEROA, F. DANGLADE, {\bf R. Lou}, J. T. HERNANDEZ, BIM-based mixed reality environments to improve AEC task performance, {\it 2nd Workshop CATAÏ}, Colombia, 2019
+		\item {\bf R. Lou}, Geometry deformation for reducing cybersickness in VR, {\it  Journées Françaises d’Informatique Graphique et de Réalité Virtuelle}, Marseille, France, 2019
+		\item Y. Jin, L. Joblot, {\bf R. Lou}, F. Merienne, Utilisation du BIM dans une application RV à des fins de maintenance d'un bâtiment, {\it  eCONFERE}, France, 2020
+		\item R. Guillaume, X. Laville, Y. Baudin, R. Guillaume, J. Pailhès, E. Gruhier, {\bf R. Lou}, Détection d’Intention dans un Environnement de Conception en Réalité Virtuelle, {\it  S.mart}, France, 2021
+		
+\end{itemize}
+ 
+% for putting a signature, uncomment the paragraph below
+%\begin{figure}[b]
+% \begin{flushright}
+%  \includegraphics[width=5cm]{lou_signature_2013.png}
+%	\end{flushright}
+%\end{figure}
+ 
+\end{resume} 
+\end{document}
+
+
+
+
+
+
+
+
+
+
